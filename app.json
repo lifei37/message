@@ -1,14 +1,18 @@
 {
-  "pages":[
+  "pages": [
+    "pages/wall/wall",
     "pages/index/index",
     "pages/logs/logs"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d8d8d8",
+    "navigationBarTitleText": "留言墙",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ed3ed3"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "enablePullDownRefresh": true
 }
